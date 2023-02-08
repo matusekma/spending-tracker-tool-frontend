@@ -11,11 +11,11 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import logoImg from '../assets/sprintform_logo-nobg.png'
 import {Link} from "react-router-dom";
-import logo from "../assets/sprintform_logo-nobg.png";
 
-const pages = [{name: 'Home', path: "/"}, {name: 'Statistics', path: "statistics"}];
+const pages = [{name: 'Home', path: "/"}, {name: 'Statistics', path: "/statistics"}];
 
 function ResponsiveAppBar() {
+
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null)
 
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
